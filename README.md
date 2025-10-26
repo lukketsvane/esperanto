@@ -19,24 +19,38 @@ This repository contains 397 ChatGPT conversations from 285 participants across 
 
 ## Quick Start
 
-### Option 1: Interactive Web Viewer (Recommended)
+### Option 1: Next.js Web Viewer (Recommended)
 
-Launch the visual, interactive data viewer:
+Modern, interactive React-based viewer:
+
+```bash
+cd viewer
+npm install
+mkdir -p public/data
+cp ../output/matched_conversations.json public/data/
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to explore:
+- 📊 Interactive dashboard with real-time charts
+- 🔍 Advanced filtering and search
+- 💬 Conversation browser with detailed views
+- 👥 Participant analytics
+- 📈 Statistical insights
+
+See [viewer/README.md](viewer/README.md) for full documentation.
+
+### Option 2: Streamlit Viewer (Python)
+
+Python-based web viewer:
 
 ```bash
 streamlit run data_viewer.py
 ```
 
-This opens a web-based interface with:
-- Interactive visualizations and charts
-- Real-time filtering by folder, method, and confidence
-- Searchable conversation browser
-- Participant analytics
-- Advanced statistics dashboard
-
 See [DATA_VIEWER_GUIDE.md](DATA_VIEWER_GUIDE.md) for detailed usage.
 
-### Option 2: Command-Line Explorer
+### Option 3: Command-Line Explorer
 
 For quick queries and scripting:
 
@@ -60,9 +74,16 @@ python data_explorer.py participant 01122024_1500_11
 
 ```
 esperanto/
-├── data_viewer.py            # Interactive web-based data viewer (Streamlit)
-├── data_explorer.py          # Command-line data explorer
-├── requirements.txt          # Python dependencies
+├── viewer/                  # Next.js web-based data viewer (React/TypeScript)
+│   ├── app/                 # Next.js pages and layouts
+│   ├── components/          # React components
+│   ├── lib/                 # Data loading and utilities
+│   ├── public/data/         # Data files (copy matched_conversations.json here)
+│   └── README.md            # Viewer documentation
+│
+├── data_viewer.py           # Streamlit web viewer (Python)
+├── data_explorer.py         # Command-line data explorer
+├── requirements.txt         # Python dependencies
 │
 ├── promptdata/              # Raw ChatGPT export data
 │   ├── CSN1/

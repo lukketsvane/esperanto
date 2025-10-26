@@ -2,13 +2,18 @@
 
 ## 🚀 Get Started in 30 Seconds
 
-### 1. Explore the Data
+### Option 1: Visual Web Viewer (Recommended)
 ```bash
-python data_explorer.py
+streamlit run data_viewer.py
 ```
+Opens an interactive web interface with charts, filters, and visualizations!
 
-### 2. See Overview
+### Option 2: Command-Line Explorer
 ```bash
+# Interactive menu
+python data_explorer.py
+
+# Quick overview
 python data_explorer.py overview
 ```
 
@@ -54,10 +59,13 @@ python data_explorer.py stats
 
 | File | Description |
 |------|-------------|
+| `data_viewer.py` | Interactive web-based data viewer |
+| `data_explorer.py` | Command-line data explorer |
 | `output/matched_conversations.json` | Complete dataset (397 conversations) |
 | `output/final_participant_summary.csv` | Participant summaries (285 participants) |
 | `output/conversation_metrics.csv` | Individual conversation stats |
-| `docs/DATA_EXPLORER_GUIDE.md` | Full usage guide |
+| `DATA_VIEWER_GUIDE.md` | Web viewer usage guide |
+| `docs/DATA_EXPLORER_GUIDE.md` | CLI explorer usage guide |
 | `docs/VALIDATION_INSIGHTS.md` | Data validation details |
 
 ---
@@ -97,8 +105,8 @@ python data_explorer.py participant 01122024_1500_11
 
 ## 📚 Need More Help?
 
-- **Interactive mode**: `python data_explorer.py`
-- **Full guide**: `docs/DATA_EXPLORER_GUIDE.md`
+- **Web viewer guide**: `DATA_VIEWER_GUIDE.md`
+- **CLI explorer guide**: `docs/DATA_EXPLORER_GUIDE.md`
 - **Validation details**: `docs/VALIDATION_INSIGHTS.md`
 - **Main README**: `README.md`
 
@@ -117,4 +125,4 @@ Data quality: 96.7% usable
 
 ---
 
-*Ready to explore? Run `python data_explorer.py` now!*
+*Ready to explore? Run `streamlit run data_viewer.py` or `python data_explorer.py` now!*

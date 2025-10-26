@@ -19,29 +19,38 @@ This repository contains 397 ChatGPT conversations from 285 participants across 
 
 ## Quick Start
 
-### 1. Explore the Data Interactively
+### Option 1: Interactive Web Viewer (Recommended)
+
+Launch the visual, interactive data viewer:
 
 ```bash
+streamlit run data_viewer.py
+```
+
+This opens a web-based interface with:
+- Interactive visualizations and charts
+- Real-time filtering by folder, method, and confidence
+- Searchable conversation browser
+- Participant analytics
+- Advanced statistics dashboard
+
+See [DATA_VIEWER_GUIDE.md](DATA_VIEWER_GUIDE.md) for detailed usage.
+
+### Option 2: Command-Line Explorer
+
+For quick queries and scripting:
+
+```bash
+# Interactive menu
 python data_explorer.py
-```
 
-This launches an interactive menu to explore participants, folders, conversations, and statistics.
-
-### 2. View Overview
-
-```bash
+# View overview
 python data_explorer.py overview
-```
 
-### 3. Search Conversations
-
-```bash
+# Search conversations
 python data_explorer.py search esperanto title
-```
 
-### 4. View Participant Details
-
-```bash
+# View participant details
 python data_explorer.py participant 01122024_1500_11
 ```
 
@@ -51,7 +60,8 @@ python data_explorer.py participant 01122024_1500_11
 
 ```
 esperanto/
-├── data_explorer.py          # Main interactive data explorer
+├── data_viewer.py            # Interactive web-based data viewer (Streamlit)
+├── data_explorer.py          # Command-line data explorer
 ├── requirements.txt          # Python dependencies
 │
 ├── promptdata/              # Raw ChatGPT export data
@@ -77,7 +87,8 @@ esperanto/
 │   └── final_validation_report.py      # Comprehensive validation
 │
 ├── docs/                    # Documentation
-│   ├── DATA_EXPLORER_GUIDE.md          # Complete usage guide
+│   ├── DATA_VIEWER_GUIDE.md            # Web viewer usage guide
+│   ├── DATA_EXPLORER_GUIDE.md          # CLI explorer usage guide
 │   ├── VALIDATION_INSIGHTS.md          # Validation analysis
 │   └── README_old.md                   # Original README
 │

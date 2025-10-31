@@ -1,0 +1,2097 @@
+[
+  {
+    "participant_id": "01122024_1000_17",
+    "num_conversations": 2,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "01122024_1200_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "01122024_1215_7",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "01122024_1500_11",
+    "num_conversations": 8,
+    "source_folders": [
+      "CSN1",
+      "CSN11",
+      "CSN15",
+      "CSN17",
+      "CSN22",
+      "CSN4",
+      "CSN5"
+    ],
+    "num_folders": 7
+  },
+  {
+    "participant_id": "02122024_1135_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "02122024_1200_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "02122024_1200_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "02122024_1200_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "02122024_1217_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "02122024_1217_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "02122024_1222_06",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122004_1500_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_09",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1000_6",
+    "num_conversations": 2,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1015_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1020_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1032_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_02",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1115_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1135_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1138_8",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1138_9",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1139_7",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1140_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1143_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1145_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_8",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1230_9",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1300_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1302_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1305_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_07",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1345_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1406_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1500_6",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1521_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1529_09",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1615_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1615_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1615_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1615_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1615_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1615_6",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1631_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1642_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1642_7",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1644_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1646_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1648_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1730_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1750_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1755_06",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1757_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1804_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "03122024_1804_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122004_1030_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122014_0315_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1000_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1000_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1000_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1000_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1000_20",
+    "num_conversations": 2,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1000_6",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1000_8",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1023_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1025_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1025_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1115_03",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1115_09",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1115_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1115_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1145_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1145_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1146_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1147_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1151_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1151_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1154_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1230_04",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1230_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1230_15",
+    "num_conversations": 2,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1230_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1230_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1230_9",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1249_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1252_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1253_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1253_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1256_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1300_01",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1300_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1300_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1308_8",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1345_03",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1345_06",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1345_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1345_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1345_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1345_17",
+    "num_conversations": 2,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1345_7",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1400_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1402_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1404_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1415_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_03",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_08",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_11",
+    "num_conversations": 2,
+    "source_folders": [
+      "CSN10",
+      "CSN11"
+    ],
+    "num_folders": 2
+  },
+  {
+    "participant_id": "04122024_1500_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1500_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1520_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1524_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1526_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1527_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1536_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1612_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_08",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1615_9",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1630_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1634_06",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1645_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_6",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1730_9",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1748_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1753_7",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04122024_1803_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "04142024_1730_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1000_7",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1018_6",
+    "num_conversations": 2,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1020_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1037_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1038_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1039_03",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1500_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1500_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1500_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1500_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1500_20",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN20"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1500_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1500_8",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1515_03",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1515_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1515_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1517_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1519_02",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1526_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1530_09",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1600_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1600_2",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN2"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1615_03",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1615_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1615_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1615_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1615_18",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN18"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1615_21",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN21"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1615_4",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1640_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1645_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1647_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1649_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "05122024_1652_09",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "13122024_1526_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20411833_1000_04",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN4"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20416281_1345_09",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20430591_1230_5",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN5"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20452200_1029_11",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN11"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20471918_1221_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20479398_1230_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20533101_1532_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20544082_1145_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20562616_1115_10",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20588493_1142_22",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN22"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20596864_1028_04",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN10"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20599195_1000_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20606627_1000_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "20643527_1200_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_1",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN1"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_12",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN9"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_13",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN13"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_15",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN15"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_16",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN16"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_17",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN17"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_19",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN19"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1200_8",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN8"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1222_3",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN3"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1223_6",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN6"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1225_7",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN7"
+    ],
+    "num_folders": 1
+  },
+  {
+    "participant_id": "28112024_1235_14",
+    "num_conversations": 1,
+    "source_folders": [
+      "CSN14"
+    ],
+    "num_folders": 1
+  }
+]

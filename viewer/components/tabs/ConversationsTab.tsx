@@ -44,7 +44,7 @@ export default function ConversationsTab({ conversations }: ConversationsTabProp
             <option value="match_confidence">Confidence</option>
             <option value="user_msg_count">User Messages</option>
             <option value="assistant_msg_count">Assistant Messages</option>
-            <option value="conv_title">Title</option>
+            <option value="title">Title</option>
           </select>
         </div>
         <div>
@@ -81,7 +81,6 @@ export default function ConversationsTab({ conversations }: ConversationsTabProp
             <thead className="bg-gray-50">
               <tr>
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Folder</th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Index</th>
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Title</th>
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Participant</th>
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Method</th>
@@ -99,13 +98,12 @@ export default function ConversationsTab({ conversations }: ConversationsTabProp
                     selectedIndex === idx ? 'bg-blue-100' : ''
                   }`}
                 >
-                  <td className="px-4 py-3 text-sm text-gray-900">{conv.folder}</td>
-                  <td className="px-4 py-3 text-sm text-gray-500">{conv.conv_index}</td>
+                  <td className="px-4 py-3 text-sm text-gray-900">{conv.source_folder}</td>
                   <td className="px-4 py-3 text-sm text-gray-900 max-w-xs truncate">
-                    {conv.conv_title}
+                    {conv.title}
                   </td>
                   <td className="px-4 py-3 text-sm text-gray-700 font-mono text-xs">
-                    {conv.matched_participant_id}
+                    {conv.participant_id}
                   </td>
                   <td className="px-4 py-3 text-sm text-gray-600">{conv.match_method}</td>
                   <td className="px-4 py-3">
@@ -130,17 +128,17 @@ export default function ConversationsTab({ conversations }: ConversationsTabProp
           <div className="grid grid-cols-3 gap-4 mb-6">
             <div>
               <p className="text-sm text-gray-500">Folder</p>
-              <p className="text-lg font-medium text-gray-900">{selected.folder}</p>
+              <p className="text-lg font-medium text-gray-900">{selected.source_folder}</p>
             </div>
             <div>
               <p className="text-sm text-gray-500">Participant ID</p>
               <p className="text-lg font-medium text-gray-900 font-mono text-sm">
-                {selected.matched_participant_id}
+                {selected.participant_id}
               </p>
             </div>
             <div>
               <p className="text-sm text-gray-500">Date</p>
-              <p className="text-lg font-medium text-gray-900">{selected.create_dt}</p>
+              <p className="text-lg font-medium text-gray-900">{selected.create_time_str}</p>
             </div>
             <div>
               <p className="text-sm text-gray-500">Match Method</p>
@@ -161,12 +159,12 @@ export default function ConversationsTab({ conversations }: ConversationsTabProp
           <div className="space-y-4">
             <div>
               <p className="text-sm font-medium text-gray-700 mb-2">Title</p>
-              <p className="text-gray-900">{selected.conv_title}</p>
+              <p className="text-gray-900">{selected.title}</p>
             </div>
             <div>
               <p className="text-sm font-medium text-gray-700 mb-2">First Message</p>
               <div className="bg-gray-50 rounded-lg p-4">
-                <p className="text-gray-800 whitespace-pre-wrap">{selected.first_user_msg}</p>
+                <p className="text-gray-800 whitespace-pre-wrap">{selected.first_user_message}</p>
               </div>
             </div>
           </div>

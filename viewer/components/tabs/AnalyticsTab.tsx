@@ -43,7 +43,7 @@ export default function AnalyticsTab({ conversations }: AnalyticsTabProps) {
 
   // Temporal distribution
   const dateGroups = conversations.reduce((acc, conv) => {
-    const dateStr = conv.create_dt;
+    const dateStr = conv.create_date;
     if (!acc[dateStr]) {
       acc[dateStr] = 0;
     }

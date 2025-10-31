@@ -1,0 +1,23 @@
+{
+  "generated_at": "2025-10-31T22:23:28.732871",
+  "total_conversations": 792,
+  "matched_conversations": 736,
+  "unmatched_conversations": 56,
+  "match_rate": 92.92929292929293,
+  "total_participants": 228,
+  "matching_breakdown": {
+    "explicit_id": 365,
+    "timestamp_proximity": 339
+  },
+  "confidence_breakdown": {
+    "high": 96,
+    "medium": 171,
+    "low": 72
+  },
+  "participants_by_conversation_count": {
+    "1": 138,
+    "2": 71,
+    "3": 17,
+    "4": 2
+  }
+}

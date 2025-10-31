@@ -2,13 +2,24 @@
 
 ## 🚀 Get Started in 30 Seconds
 
-### 1. Explore the Data
+### Option 1: Next.js Web Viewer (Recommended)
 ```bash
-python data_explorer.py
+cd viewer && npm install && npm run dev
 ```
+Modern React-based viewer with interactive charts at http://localhost:3000
 
-### 2. See Overview
+### Option 2: Streamlit Viewer (Python)
 ```bash
+streamlit run data_viewer.py
+```
+Python-based web interface with visualizations!
+
+### Option 3: Command-Line Explorer
+```bash
+# Interactive menu
+python data_explorer.py
+
+# Quick overview
 python data_explorer.py overview
 ```
 
@@ -54,10 +65,15 @@ python data_explorer.py stats
 
 | File | Description |
 |------|-------------|
+| `viewer/` | Next.js web-based data viewer (React/TypeScript) |
+| `data_viewer.py` | Streamlit web-based data viewer (Python) |
+| `data_explorer.py` | Command-line data explorer |
 | `output/matched_conversations.json` | Complete dataset (397 conversations) |
 | `output/final_participant_summary.csv` | Participant summaries (285 participants) |
 | `output/conversation_metrics.csv` | Individual conversation stats |
-| `docs/DATA_EXPLORER_GUIDE.md` | Full usage guide |
+| `viewer/README.md` | Next.js viewer documentation |
+| `DATA_VIEWER_GUIDE.md` | Streamlit viewer usage guide |
+| `docs/DATA_EXPLORER_GUIDE.md` | CLI explorer usage guide |
 | `docs/VALIDATION_INSIGHTS.md` | Data validation details |
 
 ---
@@ -97,8 +113,9 @@ python data_explorer.py participant 01122024_1500_11
 
 ## 📚 Need More Help?
 
-- **Interactive mode**: `python data_explorer.py`
-- **Full guide**: `docs/DATA_EXPLORER_GUIDE.md`
+- **Next.js viewer**: `viewer/README.md`
+- **Streamlit viewer guide**: `DATA_VIEWER_GUIDE.md`
+- **CLI explorer guide**: `docs/DATA_EXPLORER_GUIDE.md`
 - **Validation details**: `docs/VALIDATION_INSIGHTS.md`
 - **Main README**: `README.md`
 
@@ -117,4 +134,4 @@ Data quality: 96.7% usable
 
 ---
 
-*Ready to explore? Run `python data_explorer.py` now!*
+*Ready to explore? Run `cd viewer && npm run dev` or `streamlit run data_viewer.py` now!*

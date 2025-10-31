@@ -23,7 +23,11 @@ const COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'
 export default function OverviewTab({ conversations }: OverviewTabProps) {
   const totalConversations = conversations.length;
   const matched = conversations.filter(c => c.match_method !== 'unmatched').length;
-  const uniqueParticipants = new Set(conversations.map(c => c.matched_participant_id)).size;
+  const uniqueParticipants = new Set(
+    conversations
+      .map(c => c.matched_participant_id)
+      .filter((id): id is string => id !== null)
+  ).size;
   const uniqueFolders = new Set(conversations.map(c => c.folder)).size;
   const highConfidence = conversations.filter(c => c.match_confidence >= 0.80).length;
 

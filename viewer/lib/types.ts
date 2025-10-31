@@ -2,7 +2,7 @@ export interface Conversation {
   folder: string;
   conv_index: number;
   conv_title: string;
-  matched_participant_id: string;
+  matched_participant_id: string | null;
   match_method: string;
   match_confidence: number;
   create_dt: string;
@@ -11,7 +11,7 @@ export interface Conversation {
   assistant_msg_count: number;
   total_user_chars: number;
   total_assistant_chars: number;
-  first_user_msg: string;
+  first_user_msg: string | null;
 }
 
 export interface Filters {

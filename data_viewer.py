@@ -72,6 +72,65 @@ def load_data():
     # Convert to DataFrame
     df = pd.DataFrame(conversations)
 
+    # Process and normalize column names
+    # Map actual columns to expected columns
+    column_mapping = {
+        'source_folder': 'folder',
+        'title': 'conv_title',
+        'participant_id': 'matched_participant_id',
+        'matching_confidence': 'match_confidence',
+        'conversation_id': 'conv_id'
+    }
+
+    df = df.rename(columns=column_mapping)
+
+    # Add missing columns with defaults
+    if 'match_method' not in df.columns:
+        # Infer match method from confidence
+        df['match_method'] = df['match_confidence'].apply(
+            lambda x: 'unmatched' if pd.isna(x) or x == 0.0 else 'matched'
+        )
+
+    # Fill NaN values in match_confidence with 0.0
+    df['match_confidence'] = df['match_confidence'].fillna(0.0)
+
+    # Extract create date and time from create_time timestamp
+    df['create_dt'] = pd.to_datetime(df['create_time'], unit='s').dt.strftime('%Y%m%d')
+    df['create_time_str'] = pd.to_datetime(df['create_time'], unit='s').dt.strftime('%Y-%m-%d %H:%M:%S')
+
+    # Extract message counts and first user message from mapping
+    def extract_message_info(mapping):
+        if not mapping or not isinstance(mapping, dict):
+            return 0, 0, ''
+
+        user_msgs = 0
+        assistant_msgs = 0
+        first_user_msg = ''
+
+        for node_id, node in mapping.items():
+            if node and 'message' in node and node['message']:
+                msg = node['message']
+                if 'author' in msg and 'role' in msg['author']:
+                    role = msg['author']['role']
+                    if role == 'user':
+                        user_msgs += 1
+                        if not first_user_msg and 'content' in msg and 'parts' in msg['content']:
+                            parts = msg['content']['parts']
+                            if parts and len(parts) > 0:
+                                first_user_msg = str(parts[0])[:200]  # First 200 chars
+                    elif role == 'assistant':
+                        assistant_msgs += 1
+
+        return user_msgs, assistant_msgs, first_user_msg
+
+    message_info = df['mapping'].apply(extract_message_info)
+    df['user_msg_count'] = message_info.apply(lambda x: x[0])
+    df['assistant_msg_count'] = message_info.apply(lambda x: x[1])
+    df['first_user_msg'] = message_info.apply(lambda x: x[2])
+
+    # Add conversation index
+    df['conv_index'] = range(len(df))
+
     # Load additional data if available
     participant_summary = None
     conversation_metrics = None
@@ -318,7 +377,7 @@ def main():
         # Sort options
         sort_by = st.selectbox(
             "Sort by",
-            ['create_time', 'match_confidence', 'user_msg_count',
+            ['create_time_str', 'match_confidence', 'user_msg_count',
              'assistant_msg_count', 'conv_title']
         )
         sort_order = st.radio("Order", ['Descending', 'Ascending'], horizontal=True)
@@ -333,7 +392,7 @@ def main():
         st.dataframe(
             display_df[[
                 'folder', 'conv_index', 'conv_title', 'matched_participant_id',
-                'match_method', 'match_confidence', 'create_dt', 'create_time',
+                'match_method', 'match_confidence', 'create_dt', 'create_time_str',
                 'user_msg_count', 'assistant_msg_count'
             ]],
             use_container_width=True,

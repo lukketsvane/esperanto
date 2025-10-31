@@ -23,8 +23,8 @@ const COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'
 export default function OverviewTab({ conversations }: OverviewTabProps) {
   const totalConversations = conversations.length;
   const matched = conversations.filter(c => c.match_method !== 'unmatched').length;
-  const uniqueParticipants = new Set(conversations.map(c => c.matched_participant_id)).size;
-  const uniqueFolders = new Set(conversations.map(c => c.folder)).size;
+  const uniqueParticipants = new Set(conversations.map(c => c.participant_id)).size;
+  const uniqueFolders = new Set(conversations.map(c => c.source_folder)).size;
   const highConfidence = conversations.filter(c => c.match_confidence >= 0.80).length;
 
   // Match method distribution
@@ -40,7 +40,7 @@ export default function OverviewTab({ conversations }: OverviewTabProps) {
 
   // Conversations by folder
   const folderCounts = conversations.reduce((acc, conv) => {
-    acc[conv.folder] = (acc[conv.folder] || 0) + 1;
+    acc[conv.source_folder] = (acc[conv.source_folder] || 0) + 1;
     return acc;
   }, {} as Record<string, number>);
 

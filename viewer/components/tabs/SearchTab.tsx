@@ -104,14 +104,14 @@ export default function SearchTab({ conversations }: SearchTabProps) {
               <tbody className="bg-white divide-y divide-gray-200">
                 {results.map((conv, idx) => (
                   <tr key={idx} className="hover:bg-gray-50">
-                    <td className="px-4 py-3 text-sm text-gray-900">{conv.folder}</td>
+                    <td className="px-4 py-3 text-sm text-gray-900">{conv.source_folder}</td>
                     <td className="px-4 py-3 text-sm text-gray-900 max-w-md">
-                      <div className="truncate" title={conv.conv_title}>
-                        {conv.conv_title}
+                      <div className="truncate" title={conv.title}>
+                        {conv.title}
                       </div>
                     </td>
                     <td className="px-4 py-3 text-sm font-mono text-xs text-gray-700">
-                      {conv.matched_participant_id}
+                      {conv.participant_id}
                     </td>
                     <td className="px-4 py-3 text-sm text-gray-600">{conv.match_method}</td>
                     <td className="px-4 py-3">
@@ -132,7 +132,7 @@ export default function SearchTab({ conversations }: SearchTabProps) {
 
       {searchTerm && results.length === 0 && (
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
-          <p className="text-yellow-800 font-medium">No conversations found matching "{searchTerm}"</p>
+          <p className="text-yellow-800 font-medium">No conversations found matching &quot;{searchTerm}&quot;</p>
           <p className="text-yellow-600 text-sm mt-2">Try a different search term or search type</p>
         </div>
       )}

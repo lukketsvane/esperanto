@@ -166,7 +166,7 @@ def create_overview_metrics(df):
         st.metric(
             label="👥 Unique Participants",
             value=f"{unique_participants:,}",
-            delta=f"{matched/unique_participants:.1f} avg convs/participant"
+            delta=f"{matched/unique_participants:.1f} avg convs/participant" if unique_participants > 0 else "N/A"
         )
 
     with col3:
@@ -177,11 +177,11 @@ def create_overview_metrics(df):
         )
 
     with col4:
-        high_confidence = len(df[df['match_confidence'] >= 0.80])
+        total_messages = df['user_msg_count'].sum() + df['assistant_msg_count'].sum()
         st.metric(
-            label="✅ High Confidence",
-            value=f"{high_confidence:,}",
-            delta=f"{high_confidence/total_conversations*100:.1f}%"
+            label="💬 Total Messages",
+            value=f"{total_messages:,}",
+            delta=f"{total_messages/total_conversations:.1f} avg/conv"
         )
 
 
@@ -358,15 +358,47 @@ def main():
 
         st.markdown("---")
 
+        # Data Quality Report
+        st.subheader("📋 Data Quality Report")
+        quality_col1, quality_col2, quality_col3 = st.columns(3)
+
+        with quality_col1:
+            st.info(f"""
+            **Participant Coverage:**
+            - Total CSN folders: 22
+            - With conversation data: {filtered_df['matched_participant_id'].nunique()}
+            - Match rate: {len(filtered_df[filtered_df['match_confidence'] >= 1.0])/len(filtered_df)*100:.1f}%
+            """)
+
+        with quality_col2:
+            st.info(f"""
+            **Conversation Statistics:**
+            - Total conversations: {len(filtered_df):,}
+            - Avg per participant: {len(filtered_df)/filtered_df['matched_participant_id'].nunique():.1f}
+            - Date range: {filtered_df['create_dt'].min()} to {filtered_df['create_dt'].max()}
+            """)
+
+        with quality_col3:
+            total_user_msgs = filtered_df['user_msg_count'].sum()
+            total_assistant_msgs = filtered_df['assistant_msg_count'].sum()
+            st.info(f"""
+            **Message Statistics:**
+            - User messages: {total_user_msgs:,}
+            - Assistant messages: {total_assistant_msgs:,}
+            - Total: {total_user_msgs + total_assistant_msgs:,}
+            """)
+
+        st.markdown("---")
+
         col1, col2 = st.columns(2)
         with col1:
-            st.plotly_chart(plot_match_method_distribution(filtered_df),
-                          use_container_width=True)
             st.plotly_chart(plot_conversations_by_folder(filtered_df),
+                          use_container_width=True)
+            st.plotly_chart(plot_confidence_distribution(filtered_df),
                           use_container_width=True)
 
         with col2:
-            st.plotly_chart(plot_confidence_distribution(filtered_df),
+            st.plotly_chart(plot_participant_activity(filtered_df),
                           use_container_width=True)
             st.plotly_chart(plot_message_statistics(filtered_df),
                           use_container_width=True)

@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd viewer && npm install && npm run build",
+  "outputDirectory": "viewer/out",
+  "installCommand": "cd viewer && npm install",
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/viewer/$1"
+    }
+  ]
+}

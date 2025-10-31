@@ -19,29 +19,52 @@ This repository contains 397 ChatGPT conversations from 285 participants across 
 
 ## Quick Start
 
-### 1. Explore the Data Interactively
+### Option 1: Next.js Web Viewer (Recommended)
+
+Modern, interactive React-based viewer:
 
 ```bash
+cd viewer
+npm install
+mkdir -p public/data
+cp ../output/matched_conversations.json public/data/
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to explore:
+- 📊 Interactive dashboard with real-time charts
+- 🔍 Advanced filtering and search
+- 💬 Conversation browser with detailed views
+- 👥 Participant analytics
+- 📈 Statistical insights
+
+See [viewer/README.md](viewer/README.md) for full documentation.
+
+### Option 2: Streamlit Viewer (Python)
+
+Python-based web viewer:
+
+```bash
+streamlit run data_viewer.py
+```
+
+See [DATA_VIEWER_GUIDE.md](DATA_VIEWER_GUIDE.md) for detailed usage.
+
+### Option 3: Command-Line Explorer
+
+For quick queries and scripting:
+
+```bash
+# Interactive menu
 python data_explorer.py
-```
 
-This launches an interactive menu to explore participants, folders, conversations, and statistics.
-
-### 2. View Overview
-
-```bash
+# View overview
 python data_explorer.py overview
-```
 
-### 3. Search Conversations
-
-```bash
+# Search conversations
 python data_explorer.py search esperanto title
-```
 
-### 4. View Participant Details
-
-```bash
+# View participant details
 python data_explorer.py participant 01122024_1500_11
 ```
 
@@ -51,8 +74,16 @@ python data_explorer.py participant 01122024_1500_11
 
 ```
 esperanto/
-├── data_explorer.py          # Main interactive data explorer
-├── requirements.txt          # Python dependencies
+├── viewer/                  # Next.js web-based data viewer (React/TypeScript)
+│   ├── app/                 # Next.js pages and layouts
+│   ├── components/          # React components
+│   ├── lib/                 # Data loading and utilities
+│   ├── public/data/         # Data files (copy matched_conversations.json here)
+│   └── README.md            # Viewer documentation
+│
+├── data_viewer.py           # Streamlit web viewer (Python)
+├── data_explorer.py         # Command-line data explorer
+├── requirements.txt         # Python dependencies
 │
 ├── promptdata/              # Raw ChatGPT export data
 │   ├── CSN1/
@@ -77,7 +108,8 @@ esperanto/
 │   └── final_validation_report.py      # Comprehensive validation
 │
 ├── docs/                    # Documentation
-│   ├── DATA_EXPLORER_GUIDE.md          # Complete usage guide
+│   ├── DATA_VIEWER_GUIDE.md            # Web viewer usage guide
+│   ├── DATA_EXPLORER_GUIDE.md          # CLI explorer usage guide
 │   ├── VALIDATION_INSIGHTS.md          # Validation analysis
 │   └── README_old.md                   # Original README
 │

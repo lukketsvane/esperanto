@@ -34,5 +34,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# data files (copy from parent) - keeping data for deployment
-# /public/data/
+# data files - allow matched_conversations.json for deployment
+/public/data/*
+!/public/data/matched_conversations.json

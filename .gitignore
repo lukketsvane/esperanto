@@ -17,11 +17,13 @@ htmlcov/
 # Data files - keep output/ folder but ignore specific temp files
 *.db
 *.sqlite
-data/
+/data/
 results/
 temp/
 *.tmp
 *_backup.*
+# Allow viewer data for deployment
+!viewer/public/data/
 
 # Keep output files for distribution
 # output/ folder is included in repo
@@ -43,3 +45,4 @@ Thumbs.db
 
 # Environment variables
 .env
+.vercel

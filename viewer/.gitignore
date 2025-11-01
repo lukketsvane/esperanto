@@ -34,5 +34,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# data files (copy from parent)
-/public/data/
+# data files (copy from parent) - keeping data for deployment
+# /public/data/
